@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <section id="addtodos">
+            <form id="form">
+                <div class="feedback" id="feedback"></div> 
+                <h2>Add to Todos</h2>
+                <input id="todos" type="text" placeholder="Enter Todos">
+                <input type="submit" value="submit">
+            </form>
+        </section>
+
+        <section id="todolist">
+            <h2>ToDos</h2>
+            <ul class="todolisted">
+                <div class="clearMsg" id="clearMsg"></div> 
+                <span class="placeholder"></span>
+
+                    <!-- <div id='edit' class="edit">&#x2611;</div> 
+                    <div id='delete' class="delete">&#x274C;</div>
+                    <div class="clear"></div> -->
+            </ul>
+        </section>
+        <button id="clear">Clear</button>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
